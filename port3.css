@@ -1,0 +1,109 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color:rgb(180, 150, 53);
+}
+h1, h2, h3, h4{
+    font-family: 'Roboto Mono', monospace; ;
+}
+
+.container {
+max-width: 840px;
+margin: 0 auto;
+}
+.intro {
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.i-am, .i-like {
+    text-align: center;
+}
+.about-list{
+     list-style: none;
+}
+.links-list{
+    list-style: none;
+}
+
+.icon{
+    display: flex;
+
+}
+
+hr{
+    border: 1px solid #000;
+}
+
+
+@media (max-width: 480px) {
+   .about-grid {
+       grid-template-columns: 100%;
+ }
+}
+.profile-picture{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 6px 0 rgb(34, 60, 30, 0.16);
+    transition: all ease-in-out .2%;
+}
+.profile-picture:hover {
+    box-shadow: 0 0px 12px 0 rgb(34, 64,30,0.16);
+
+}
+form input,textarea {
+    padding: 3px;
+    border-radius: 5px;
+    width: 240px;
+    box-shadow: none;
+    border: none;
+}
+form input[type="submit"] {
+    width: 200px;
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+.submit-button-wrapper {
+       margin: 20px 0;
+}
+
+.links-and-contacts {
+      display: flex;
+      justify-content: space-evenly;
+      
+}
+.icon{
+    font-size: 2rem;
+    color: gold;
+    transition: color .3s;
+    margin-bottom: 10px;
+}
+.icon:hover{
+    color: darkgoldenrod;
+
+}
+.links-list li icon{
+    height: 30px;
+}
+.links h1{
+    margin-left: 10px;
+}
+
+/* .links {
+    justify-content: center;
+
+} */
+
+.links-list{
+    list-style: none;
+ 
+}
+@media (max-width: 650px) {
+    .links-and-contacts {
+        grid-template-columns: 100%;
+}
+}
