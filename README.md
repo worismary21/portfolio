@@ -1,9 +1,1 @@
-# week-one-sq011B - Portfolio
-
-## Problem Description:
-
-You are to create a Personal Portfolio using HTML, CSS and JavaScript.
-
-Make your design pretty and responsive.
-
-When you are done, host your application on netlify or render (submit link should be added to your turned in field on Teams)
+My first portfolio created as a website developer. 
